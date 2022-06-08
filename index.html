@@ -9,42 +9,63 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#About">About</a></li>
-            <li><a href="#Work">Work</a></li>
-            <li><a href="#Resume">Resume</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </nav>
-    
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Work">Work</a>
+        <a href="#Resume">Resume</a>
+        <a href="#Contact">Contact</a>
+      </div>
+   
     <h1><a name="About">About</a></h1>
-    <section> <p> Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.</p></section>
+    <section> <p> Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.</p>
+    <h3>Quels sont vos centres d'intérêt?</h3>
+        <label for="choix"> <input type="checkbox" name="choix" checked> Voyage </label> <br>
+        <label for="choix"> <input type="checkbox" name="choix" > Lecture </label> <br>
+        <label for="choix"> <input type="checkbox" name="choix" > Cuisine </label> <br>
+        <label for="choix"> <input type="checkbox" name="choix" > Sport </label> <br>
+    </section>
 
-    <h1><a name="Work">Work</a></h1>
-    <section> <p> Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.</p></section>
+    <h1><a name="Work">Work</a></h1> 
+    <a href="https://www.google.com/"> <img src="Work.jpg" alt="Work"> </a>
+    <section> <p> Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.</p>
+        <ol>
+            <li>municipia plurima</li> <br>
+            <li>municipia plurima ttt</li> <br>
+            <li>yyy municipia plurima</li> <br> 
+            <li>municipia plurima hhh</li> <br>
+        </ol>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8FqZZrbnwkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
 
     <h1><a name="Resume">Resume</a></h1>
-    <section> <p> Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.</p></section>
+    <section> <p> Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.</p>
+    <ul>
+        <li>municipia plurima</li> <br>
+        <li>municipia plurima ttt</li> <br>
+        <li>yyy municipia plurima</li> <br> 
+        <li>municipia plurima hhh</li> <br>
+    </ul>
+    </section>
 
     <h1><a name="Contact">Contact</a></h1>
-    <form action="mailto : ilham.mhanni@gmail.com"> <!--Formulaire de contact-->
+    <form action="mailto : ilham.mhanni@gmail.com" method="post"> <!--Formulaire de contact-->
         <fieldset>
        Nom <br> <input type="text" required name="Nom"> <br>
        Prénom <br> <input type="text" required name="Prénom"> <br>
         
         <label for="communication">Vous souhaitez être contacté (e) par : </label>  <br>
-                  <input type="radio" id="communication" name="communication" value="Téléphone"/>Téléphone  
+                  <input type="radio" id="communication" name="communication" value="Téléphone" checked/>Téléphone  
                   <input type="radio" id="communication" name="communication" value="E-mail"/>E-mail <br/>  
     
        Adresse e-mail  <br> <input type="email" name="Adresse e-mail" placeholder="Entrez votre @ e-mail"> <br>
        Numéro de téléphone <br> <input type="tel" name ="Téléphone" placeholder="Entrez votre numéro de téléphone"> <br>
        Message <br><textarea name="Votre message" id="" cols="30" rows="10"></textarea> <br>
-       <input type="submit" name="Envoyer" id="">
+       <input type="submit" name="Envoyer" id="Envoyer" value="Envoyer">
     </fieldset>
     </form>
 
+    <footer> GoMyCode ------ Juin 2022 </footer>
 </body>
 
 </html>
